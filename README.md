@@ -18,3 +18,10 @@ python app.py
 1. When user input his/her question or statement, extract_topics() read the question and extract possible topics and return
 2. Then get_aggregated_context() call the wikipedeaapi on given topics and aggregated texts get from those pages and return
 3. get_wikipedia_answer() takes all texts from Wikipedea pages and apply question-answer model to get answer
+
+* Project will not work if wikipediaapi does not provide data, then you have to work on following code in data/context.py -
+
+wiki_wiki = wikipediaapi.Wikipedia(
+    language="en",
+    user_agent="WikiBasedQA/1.0 (https://my-wiki-project.com/; hefajuddin101@gmail.com)"
+)
