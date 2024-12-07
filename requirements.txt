@@ -1,5 +1,5 @@
+wikipedia-api
 transformers
-Flask         # Flask for the web app
-wikipedia-api # Wikipedia API for fetching Wikipedia pages
-spacy       # SpaCy for NLP processing
-# en-core-web-sm==3.5.3    # SpaCy's small English language model# python -m spacy download en_core_web_sm
+torch
+tokenizers
+flask

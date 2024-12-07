@@ -5,8 +5,9 @@ import logging
 listOfFiles=[
     "app.py",
     "model.py",
+    "extract_wiki.py",
     f"templates/index.html",
-    f"data/context.json",
+    f"data/context.py",
     ".env",
     "config.py",
     "requirements.txt"
